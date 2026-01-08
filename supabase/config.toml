@@ -1,0 +1,16 @@
+project_id = "zyvgdptebvkxmihgiszr"
+
+[functions.ai-health-assistant]
+verify_jwt = true
+
+[functions.send-medicine-reminder]
+verify_jwt = false
+
+[functions.send-otp-email]
+verify_jwt = false
+
+[functions.check-medicine-reminders]
+verify_jwt = false
+
+[functions.send-confirmation-email]
+verify_jwt = false
